@@ -1,35 +1,35 @@
 # ASCII-Font › http://patorjk.com/software/taag/#p=display&f=Slant&t=Phlow
 #
-#      _____ _ __          _____      __  __  _                 
+#      _____ _ __          _____      __  __  _
 #     / ___/(_) /____     / ___/___  / /_/ /_(_)___  ____ ______
 #     \__ \/ / __/ _ \    \__ \/ _ \/ __/ __/ / __ \/ __ `/ ___/
-#    ___/ / / /_/  __/   ___/ /  __/ /_/ /_/ / / / / /_/ (__  ) 
-#   /____/_/\__/\___/   /____/\___/\__/\__/_/_/ /_/\__, /____/  
-#                                                 /____/        
+#    ___/ / / /_/  __/   ___/ /  __/ /_/ /_/ / / / / /_/ (__  )
+#   /____/_/\__/\___/   /____/\___/\__/\__/_/_/ /_/\__, /____/
+#                                                 /____/
 #
 # Title of your website
-title: "Feeling Responsive"
+title: "MagicHouse"
 
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: "A Flexible Theme for Jekyll"
+slogan: "Say Hi from Ervine"
 
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: "»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette."
+description: "Ervine's blog."
 
 # Main author of the website
 # See > authors.yml
-author: phlow
+author: Ervine
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://phlow.github.io/feeling-responsive'
+url: '' #################################################################################
 baseurl: ''
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
+improve_content:  #######################################################################
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash at the end.
@@ -37,7 +37,7 @@ improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://phlow.github.io/feeling-responsive/images/'
+urlimg:  /images/ ################################################################################
 
 
 # Logo size is 600x80 pixels
@@ -53,20 +53,28 @@ paginate_path: "blog/page:num"
 
 
 # Theme works best with Kramdown (using the table of contents function)
-markdown: kramdown
+# markdown: kramdown
 permalink: /:categories/:title/
 highlight: pygments
 excerpt_separator: "<!--more-->"
 include: ['.htaccess']
 # Exclude these files from your production _site
-exclude:
-    - .sass-cache
-    - Gemfile
-    - Gemfile.lock
-    - LICENSE
-    - README.md
-    - INSTALL.md
-
+# exclude:
+#     - .sass-cache
+#     - Gemfile
+#     - Gemfile.lock
+#     - LICENSE
+#     - README.md
+#     - INSTALL.md
+# Markdown for Github
+markdown: redcarpet
+redcarpet:
+  extensions:
+    - hard_wrap
+    - no_intra_emphasis
+    - autolink
+    - strikethrough
+    - fenced_code_blocks
 
 # The language setting is used in /includes/header.html for html-settings
 language: "en"
@@ -101,7 +109,7 @@ defaults:
       show_meta: false 	# Hide metadata for all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: phlow     # Default author for pages
+      author: Ervine     # Default author for pages
   -
     scope:
       path: ""
@@ -110,7 +118,7 @@ defaults:
       show_meta: true   # Show metadata for all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: phlow     # Default author for posts
+      author: Ervine     # Default author for posts
 
 
 
@@ -132,9 +140,9 @@ defaults:
 #   ___/ / /___/ /_/ /
 #  /____/_____/\____/    Verify Website to Webmaster Tools
 
-google_author:             "https://plus.google.com/u/0/118311555303973066167"
-google_site_verification:  "Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ"
-bing_webmastertools_id:    "0FB4C028ABCF07C908C54386ABD2D97F"
+google_author:             #############################################################
+google_site_verification:  ############################################################
+bing_webmastertools_id:   #################################################################
 # alexa_verify_id:         ""
 
 
@@ -146,17 +154,17 @@ bing_webmastertools_id:    "0FB4C028ABCF07C908C54386ABD2D97F"
 #   /_/    \__,_/ |___/_/\___/\____/_/ /_/____/   Favicon-Crap: Favicons, Chrome, Android & Apple Touch Buttons
 #                                                 More information » https://mathiasbynens.be/notes/touch-icons
 
-favicon-32x32:                          "favicon-32x32.png"
-touch-icon-192x192:                     "touch-icon-192x192.png"
-apple-touch-icon-180x180-precomposed:   "apple-touch-icon-180x180-precomposed.png"
-apple-touch-icon-152x152-precomposed:   "apple-touch-icon-152x152-precomposed.png"
-apple-touch-icon-144x144-precomposed:   "apple-touch-icon-144x144-precomposed.png"
-apple-touch-icon-120x120-precomposed:   "apple-touch-icon-120x120-precomposed.png"
-apple-touch-icon-114x114-precomposed:   "apple-touch-icon-114x114-precomposed.png"
-apple-touch-icon-76x76-precomposed:     "apple-touch-icon-76x76-precomposed.png"
-apple-touch-icon-72x72-precomposed:     "apple-touch-icon-72x72-precomposed.png"
-apple-touch-icon-precomposed:           "apple-touch-icon-precomposed.png"
-msapplication_tileimage:                "msapplication_tileimage.png"               # Size 144x144
+favicon-32x32:                          "favicon.png"
+touch-icon-192x192:                     "favicon.png"
+apple-touch-icon-180x180-precomposed:   "favicon.png"
+apple-touch-icon-152x152-precomposed:   "favicon.png"
+apple-touch-icon-144x144-precomposed:   "favicon.png"
+apple-touch-icon-120x120-precomposed:   "favicon.png"
+apple-touch-icon-114x114-precomposed:   "favicon.png"
+apple-touch-icon-76x76-precomposed:     "favicon.png"
+apple-touch-icon-72x72-precomposed:     "favicon.png"
+apple-touch-icon-precomposed:           "favicon.png"
+msapplication_tileimage:                "favicon.png"               # Size 144x144
 msapplication_tilecolor:                "#fabb00"
 
 
@@ -218,7 +226,7 @@ sass:
 #
 # used in _includes/footer_scripts
 
-google_analytics_tracking_id: UA-60112281-1
+google_analytics_tracking_id: UA-44813148-1
 
 
 

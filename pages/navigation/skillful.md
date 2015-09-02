@@ -1,14 +1,14 @@
 ---
 layout: page
 show_meta: false
-title: "Style your content!"
-subheadline: "Layouts of Feeling Responsive"
+title: "SKILLFUL"
+subheadline: "Learn how to improve your life."
 header:
    image_fullwidth: "header_unsplash_5.jpg"
-permalink: "/design/"
+permalink: "/geek/skillful/"
 ---
 <ul>
-    {% for post in site.categories.design %}
+    {% for post in site.categories.skillful %}
     <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
