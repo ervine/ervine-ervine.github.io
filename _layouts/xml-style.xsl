@@ -22,7 +22,7 @@ breadcrumbs: true
 		]]></xsl:text>
 		{{ content }}
 		<xsl:text disable-output-escaping="yes"><![CDATA[
-		{% include footer %}
+		{% include footer.html %}
 		{% include footer_scripts %}
 		]]></xsl:text>
 	</body>
