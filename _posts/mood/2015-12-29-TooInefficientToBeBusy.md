@@ -6,13 +6,13 @@ categories:
 ---
 **不是我的节操没了**
 
-It seemed a few long week that I had to push myself to rush dozens of things.
-There was a autumn semester final test.
-There was a English persatation.
-There is a experiment to help and the MATLAB code I have to review and learn.
+It seemed a few long weeks that I had to push myself to rush dozens of things.
+There was an autumn semester final test.
+There was an English presentation.
+There was an experiment to help and the MATLAB code I have to review and learn.
 
-In fact, I just realize that although I had planned for my daliy life and schedule,
-a few unplanned thing can distrusted my rhythm and crack me down.
+In fact, I just realize that although I had planned for my daily life and schedule,
+a few unplanned things can distrusted my rhythm and crack me down.
 Last time I mentioned I had spent a lot of time on shopping day
 but fail to save a lot of money
 and I had felt anxious during the time when waiting for the express delivery.
@@ -24,6 +24,6 @@ trying to "relax myself" (actually I think I'm trying to run out of pressure);
 when I get a little new thing,
 it would take most of my attention, linger in my head all day.
 
-There is a saying： Not pleased by external gains, not saddened by personnal losses.
-I used to think nothing of it, but now I do understand how the surrouding affect our mind.
+There is a saying： Not pleased by external gains, not saddened by personal losses.
+I used to think nothing of it, but now I do understand how the surrounding affect our mind.
 
