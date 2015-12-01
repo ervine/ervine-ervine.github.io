@@ -15,7 +15,7 @@ In fact, I just realize that although I had planned for my daily life and schedu
 a few unplanned things can distrusted my rhythm and crack me down.
 Last time I mentioned I had spent a lot of time on shopping day
 but fail to save a lot of money
-and I had felt anxious during the time when waiting for the express delivery.
+and I fussed during the time when waiting for the express delivery.
 All this together makes me consider if I have weak power to control my mood,
 because it seems that 
 when I get a little more work to meet the deadline,
