@@ -2,7 +2,7 @@
   layout: page-fullwidth
   title: 一年
   categories:
-    - moon
+    - mood
 ---
 
 前些日子广州又暴雨了。
