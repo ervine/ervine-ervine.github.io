@@ -69,7 +69,7 @@ include: ['.htaccess']
 #     - README.md
 #     - INSTALL.md
 # Markdown for Github
-markdown: redcarpet
+markdown: kramdown
 redcarpet:
   extensions:
     - hard_wrap
